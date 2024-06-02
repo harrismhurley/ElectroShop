@@ -21,12 +21,6 @@ You’ll need to use the [pg](https://node-postgres.com/) and [Sequelize](https:
 Use the `schema.sql` file in the `db` folder to create your database with PostgreSQL shell commands. Use environment variables to store sensitive data like your PostgreSQL username, password, and database name.
 
 
-
-
-### Seed the Database
-
-After creating the models and routes, run `npm run seed` to seed data to your database so that you can test your routes.
-
 ### Sync Sequelize to the Database on Server Start
 
 Create the code needed in `server.js` to sync the Sequelize models to the PostgreSQL database on server start.
